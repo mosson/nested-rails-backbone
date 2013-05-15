@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <title>NestedBackboneRails</title>
+  <meta charset="UTF-8" />
+  <%= stylesheet_link_tag    	"application", :media => "all" %>
+  <%= javascript_include_tag 	"application" %>
+
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+	<header>
+		<div class="container">
+
+		</div>
+	</header>
+
+	<article id="AppViewContainer"></article>
+
+	<%= yield %>
+
+	<footer>
+		<div class="container">
+
+		</div>
+	</footer>
+
+  <!-- livereload snippet -->
+  <script src="http://localhost:35729/livereload.js?snipver=1"></script>
+
+</body>
+</html>

@@ -16,5 +16,8 @@ rerun.txt
 pickle-email-*.html
 
 node_modules
+
 *.sublime*
 *.sublime*
+
+/vendor/assets/javascripts

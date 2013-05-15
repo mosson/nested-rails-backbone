@@ -1,0 +1,11 @@
+{
+	"name": "nested-backbone-rails",
+	"version": "0.0.0",
+	"devDependencies": {
+		"grunt": "~0.4.0",
+    "grunt-contrib-livereload": "x.x.x",
+		"grunt-contrib-handlebars": "x.x.x",
+		"grunt-contrib-watch": "x.x.x",
+    "grunt-regarde": "x.x.x"
+	}
+}

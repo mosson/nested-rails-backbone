@@ -1,0 +1,25 @@
+<h1>Listing answer_items</h1>
+
+<table>
+  <tr>
+    <th>Sentence</th>
+    <th>Question</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @answer_items.each do |answer_item| %>
+  <tr>
+    <td><%= answer_item.sentence %></td>
+    <td><%= answer_item.question_id %></td>
+    <td><%= link_to 'Show', answer_item %></td>
+    <td><%= link_to 'Edit', edit_answer_item_path(answer_item) %></td>
+    <td><%= link_to 'Destroy', answer_item, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Answer item', new_answer_item_path %>
